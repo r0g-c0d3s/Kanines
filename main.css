@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Quantum Lemon Bold';
+  src: url('asset/font1/Quantum Lemon Bold.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* global rules starts  */
 :root {
     --main: #fc8704;
@@ -28,7 +33,7 @@
       background-color: #000;
   }
   body {
-      font-family: 'RACING HARD', sans-serif;
+      /* font-family: 'Quantum Lemon Bold', sans-serif; */
   }
   .heading {
       font-size:6rem; 
@@ -39,6 +44,7 @@
       padding-bottom: 3rem;
       letter-spacing: .2rem;
       font-weight: 500px;
+      font-family: 'Quantum Lemon Bold', sans-serif;
   }
   .title {
       font-size:2rem; 
@@ -54,6 +60,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Quantum Lemon Bold', sans-serif;
 }
 nav ul {
   display: flex;
@@ -135,6 +142,7 @@ nav img{
     font-style: normal;
     text-transform: uppercase;
     font-size: 80px;
+    font-family: 'Quantum Lemon Bold', sans-serif;
   }
   
   .left-part h1 .text {
@@ -158,14 +166,14 @@ nav img{
   }
   
   .left-part p {
-    margin: 10;
+    margin: 10px;
     color: #fff;
     font-size: clamp(100px, 18.5vw, 282px);
-    line-height: 0.75;
     font-weight: normal;
     font-style: normal;
     text-transform: uppercase;
     font-size: 30px;
+    font-family: "Ubuntu", sans-serif; 
   }
 
   /* right part */
@@ -1407,6 +1415,7 @@ nav img{
   font-weight: 60; 
   margin-top: 10px;
   color: var(--main);
+  font-family: 'Quantum Lemon Bold', sans-serif;
 }
 
 .cd .ct .dtp {
@@ -1415,6 +1424,7 @@ nav img{
   color: #fff; 
   margin: 10px 0;
   line-height: 1.5; 
+  font-family: "Ubuntu", sans-serif; 
 }
 
 .ctnr .bttn {
@@ -1515,15 +1525,12 @@ input[type="radio"] {
   .about .row .content {
       padding-left:4rem;
   }
-  .about .row .content h3 {
-      font-size:3rem; 
-      color:var(--pink);
-  }
   .about .row .content p {
       font-size: 2rem;
       color:#fff; 
       padding:1rem 0;
       padding-right: 10px;
+      font-family: "Ubuntu", sans-serif; 
   }
 
   .about .row .image{
@@ -1574,10 +1581,12 @@ input[type="radio"] {
       font-size:2rem; 
       color:var(--main); 
       padding:1.5rem 0;
+      font-family: 'Quantum Lemon Bold', sans-serif;
   }
   .teacher .card-container .card p {
       font-size:1.7rem; 
       color:#fff; 
+      font-family: "Ubuntu", sans-serif; 
   }
 
   /* teacher section ends  */
@@ -1626,23 +1635,25 @@ input[type="radio"] {
   .n-title {
     display: block;
     font-size: 30px;
-    line-height: 1.5rem;
     text-decoration: dashed;
     padding-bottom: 5px;
     padding-top: 14px;
     color: var(--main);
+    font-family: 'Quantum Lemon Bold', sans-serif;
   }
   
   .n-description {
     line-height: 1.4;
     color: rgb(233, 230, 224);
     font-size: 22px;
+    font-family: "Ubuntu", sans-serif; 
   }
   .n-btn{
     background: var(--main);
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    font-family: 'Quantum Lemon Bold', sans-serif;
   }
 
   
@@ -1672,7 +1683,7 @@ input[type="radio"] {
   .end p{
     color: #fff;
     font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Quantum Lemon Bold', sans-serif;
   }
   /* footer  section ends  */
   
