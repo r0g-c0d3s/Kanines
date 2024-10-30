@@ -32,9 +32,7 @@
       scroll-behavior: smooth;
       background-color: #000;
   }
-  body {
-      /* font-family: 'Quantum Lemon Bold', sans-serif; */
-  }
+  
   .heading {
       font-size:6rem; 
       color:var(--main);
@@ -55,12 +53,18 @@
       color:#fff;
   }
 /* ---nav----- */
+.navb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav{
   background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Quantum Lemon Bold', sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 10);
 }
 nav ul {
   display: flex;
@@ -74,25 +78,33 @@ nav ul li{
 }
 
 nav ul li a{
-  color: var(--main);
+  color: #fff;
   -webkit-text-stroke-color: #fefefe;
 }
 
 nav ul li:hover{
-  background-color: var(--main);
-  border-radius: 5px;
-  border: 2px solid #fff;
+  transform: translateY(-10px);
 }
 
 nav ul li a:hover{
-  color: #fff;
+  color: var(--main);
 }
 
-nav img{
-  height: 200px;
-  padding-top: 25px;
-  padding-left: 25px;
-  
+.navb img{
+  height: 100px; 
+}
+
+nav button{
+  background-color: var(--main);
+  color: #fefefe;
+  font-family: 'Quantum Lemon Bold', sans-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+nav button:hover{
+  transform: translateY(-10px);
 }
 
 /* ---nav  end----- */
